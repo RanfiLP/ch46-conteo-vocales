@@ -21,6 +21,9 @@ function leerValorDeNombre(){
  const inputNombre = document.getElementById("nombre");
  return inputNombre.value;
 }
+function imprimirResultado( resultado ){
+console.log( resultado );
+}
 
 function manejoDelEventoDeInputNombre(){
   const nombre = leerValorDeNombre().toLowerCase();
